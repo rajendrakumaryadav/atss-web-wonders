@@ -1,0 +1,246 @@
+/** default fonts :     font-family: 'Fraunces', serif; */
+/**
+  LICENSE: MIT
+  (c) Rajendra Kumar R Yadav <rajendra.ecti@gmail.com>
+  Date : 29/JAN/2021 15:30 IST
+  Editor: VSCODE at MacOS
+*/
+body {
+  padding: 5px 5px 5px 5px;
+  /* background: rgb(34, 193, 195); */
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(226, 230, 42, 1) 70%,
+    rgba(202, 189, 80, 1) 77%,
+    rgba(222, 188, 66, 1) 86%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+/**
+nav section.
+*/
+/* .navbar {
+  border-radius: 20px;
+  background-color: transparent;
+}
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+  background-image: linear-gradient(red, white, green);
+  color: #3273dc;
+}
+.navbar-item.has-dropdown.is-active .navbar-link,
+.navbar-item.has-dropdown:focus .navbar-link,
+.navbar-item.has-dropdown:hover .navbar-link {
+  background-image: linear-gradient(red, white, green);
+} */
+
+/* .navbar-dropdown {
+  background-color: transparent;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 2px solid #dbdbdb;
+  box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
+  display: none;
+  font-size: 0.875rem;
+  left: 0;
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  z-index: 20;
+} */
+
+/* .navbar-item {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300px;
+}
+.navbar-dropdown a.navbar-item:focus,
+.navbar-dropdown a.navbar-item:hover {
+  background-image: linear-gradient(red, yellow);
+  color: #0a0a0a;
+} */
+
+/*
+Other area.
+*/
+.hero {
+  /* background-image: url("../images/background.jpg"); */
+  opacity: 50px;
+  font-size: 500;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: darkorange;
+  font-family: "Potta One", "Cursive";
+  font-size: 70px;
+  font-weight: 200;
+}
+.subtitle {
+  text-align: center;
+  color: red;
+  font-family: Fraunces, Cursive;
+  font-size: 600;
+  font-weight: bold;
+}
+
+.secondry {
+  /* height: 500px; */
+  opacity: 0.8;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* background-image: url("../images/background.jpg"); */
+  background-image: linear-gradient(orange, white, green);
+}
+
+.footer {
+  font-family: "Fraunces", serif;
+  background-color: transparent;
+  padding: 0px;
+  color: red;
+}
+
+.img-custom {
+  padding-top: 10px;
+  height: 80%;
+}
+.footer {
+  text-align: center;
+}
+
+.title-header {
+  color: white;
+  font-size: 27px;
+  /* background-color: red; */
+  height: 100px;
+}
+img {
+  padding: 30px;
+  height: 480px;
+  width: 640px;
+}
+
+.contact {
+  font-family: "Fraunces", serif;
+  height: 150px;
+  width: 100%;
+  color: aliceblue;
+  font-size: 38px;
+  font-weight: bold;
+  /* background: red; */
+  text-align: center;
+  padding-bottom: -3px;
+}
+.sub-title-contact {
+  font-size: 20px;
+  display: block;
+  padding-top: 0px;
+}
+
+.contact-details {
+  color: #55104a;
+  display: block;
+  font-size: 18px;
+  padding-top: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+  .title-header {
+    color: white;
+    font-size: 14px;
+
+    font-weight: 300;
+    /* background-color: red; */
+    height: 100px;
+  }
+  .sub-title-contact {
+    display: block;
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  .contact-details {
+    color: #55104a;
+    display: block;
+    font-size: 15px;
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+    text-align: center;
+    color: darkorange;
+    font-family: "Potta One", "Cursive";
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .subtitle {
+    text-align: center;
+    color: red;
+    font-family: Fraunces, Cursive;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .img-custom {
+    padding: 0px;
+  }
+  .footer {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .title-header {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    /* background-color: red; */
+    height: 100px;
+  }
+  .segment {
+    padding-top: 15px;
+  }
+
+  .contact {
+    font-family: "Fraunces", serif;
+    height: 100px;
+    width: 100%;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    /* background: red; */
+    text-align: center;
+  }
+
+  .sub-title-contact {
+    display: block;
+    font-size: 10px;
+    padding-top: 0px;
+  }
+  .contact-details {
+    color: #55104a;
+    display: block;
+    font-size: 10px;
+    padding-top: 0px;
+  }
+}
+
+.segment {
+  padding-top: 15px;
+}
+
+.contact-col {
+  /* filter: blur(4px); */
+  opacity: 0.75;
+  text-rendering: optimizeLegibility;
+  background-size: cover;
+  position: relative;
+  background-image: url("../images/background.jpg");
+}

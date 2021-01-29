@@ -1,0 +1,19 @@
+{
+  "name": "web-wonders-atss",
+  "version": "1.0.0",
+  "description": "A simple single page web app.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpage",
+    "single-page"
+  ],
+  "author": "Rajendra Kumar R Yadav <rajendra.ecti@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bulma": "^0.9.2"
+  }
+}
